@@ -22,9 +22,9 @@ public class BaseDemo {
                 }
 
                 /** compact() method only clears the data which you have already read*/
-                //byteBuffer.compact();
+                /**byteBuffer.compact();*/
 
-                /** clear() method clears the whole buffer*/
+                /**clear() method clears the whole buffer*/
                 byteBuffer.clear();
                 bytesRead = channel.read(byteBuffer);
             }
